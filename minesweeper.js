@@ -54,7 +54,7 @@ var board = {
     {
       row: 2,
       col: 0,
-      isMine: false,
+      isMine: true,
       isMarked: false,
       hidden: true,
       surroundingMines: 0
@@ -88,7 +88,9 @@ function startGame () {
   lib.initBoard()
 }
 
-
+function name(params) {
+  
+}
 
 // Define this function to look for a win condition:
 //
